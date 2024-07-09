@@ -35,7 +35,6 @@
 ||mythings.com^$third-party
 ||criteo.$third-party
 ||image.subscribe.ru/advert/
-
 //count(er)?\[\?\.]/$third-party
 /counters?
 ||google-analytics.com/*.js$third-party,script
@@ -68,7 +67,6 @@ counter.rambler.ru/
 ||montblanc.rambler.ru^$script
 ||top-fwz1.mail.ru^
 ###counters
-
 /\D(?:3\[123]\[-_x]88|88\[-_x]3\[123])\D/$domain=~money.yandex.ru
 /\[.-/]1\[26]0\[-x_]600?\[.-/]/
 /\[.-/]468\[-x_]\[68]0\[.-/]/
@@ -107,7 +105,6 @@ counter.rambler.ru/
 ||*pop*/$third-party,popup
 *teaser*/*$third-party,script
 ||tizer$third-party
-
 ||yabs.yandex.ru/resource/
 ||adriver.ru/$third-party
 ||googleadservices.com^$third-party
@@ -146,7 +143,6 @@ counter.rambler.ru/
 ||content.relax.ru^$third-party
 ||target.smi2.net/client/target.js
 ###sape_okn
-
 //icon?\[_-](rss|facebook|twitter|gplus|vk)\[-.]/
 /icons/facebook$domain=~facebook.com
 /addthis_widget.
@@ -207,7 +203,6 @@ plusone.js|$third-party
 ###b_soc
 ~mts.ru##.social
 ##.addthis_toolbox
-
 /blockblock*$script
 /anti_ab.
 /adb*_detector.
